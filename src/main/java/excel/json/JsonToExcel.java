@@ -65,6 +65,9 @@ public class JsonToExcel {
                 cell = row.createCell(1);
                 cell.setCellValue(String.valueOf(request.getMethod()));
 
+                cell = row.createCell(2);
+                cell.setCellValue(String.valueOf(request.getDescString()));
+
             }
 
         
